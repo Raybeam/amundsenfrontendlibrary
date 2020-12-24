@@ -33,7 +33,7 @@ def build_js() -> None:
 
 build_js()
 
-requirements_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'requirements', 'prod.txt')
+requirements_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'requirements.txt')
 with open(requirements_path) as requirements_file:
     requirements = requirements_file.readlines()
 
